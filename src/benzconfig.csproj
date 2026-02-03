@@ -1,0 +1,189 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>Resource\app.ico</ApplicationIcon>
+		<InvariantGlobalization>false</InvariantGlobalization>
+		<AssemblyTitle>benzconfig</AssemblyTitle>
+		<PublishTrimmed>false</PublishTrimmed>
+		<TrimMode>none</TrimMode>
+		<ReadyToRun>false</ReadyToRun>
+		<SatelliteResourceLanguages>ru;en</SatelliteResourceLanguages>
+
+		<AssemblyTitle>BenzConfig</AssemblyTitle>
+		<AssemblyCompany>benzenergy</AssemblyCompany>
+		<AssemblyProduct>BenzConfig</AssemblyProduct>
+		<Copyright>
+			© 2024 benzenergy
+		</Copyright>
+		<Version>2.5.0</Version>
+		<FileVersion>2.5.0.0</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="res\**" />
+		<EmbeddedResource Remove="res\**" />
+		<None Remove="res\**" />
+		<Page Remove="res\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-Bold.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-BoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-ExtraLight.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-ExtraLightItalic.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-Italic.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-Light.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-LightItalic.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-Medium.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-MediumItalic.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-Regular.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-SemiBold.ttf" />
+		<None Remove="Assets\Fonts\Baijamjuree\BaiJamjuree-SemiBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Black.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-BlackItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Bold.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-BoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-ExtraBold.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-ExtraBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-ExtraLight.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-ExtraLightItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Italic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Light.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-LightItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Medium.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-MediumItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Regular.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-SemiBold.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-SemiBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-Thin.ttf" />
+		<None Remove="Assets\Fonts\Exo2\Exo2-ThinItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Black.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-BlackItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Bold.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-BoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-ExtraBold.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-ExtraBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Heavy.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-HeavyItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Light.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-LightItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Medium.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-MediumItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Regular.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-RegularItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-SemiBold.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-SemiBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-Thin.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-ThinItalic.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-UltraLight.ttf" />
+		<None Remove="Assets\Fonts\Gilroy-UltraLightItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Black.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-BlackItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Bold.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-BoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-ExtraBold.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-ExtraLight.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Italic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Light.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-LightItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Medium.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-MediumItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Regular.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-SemiBold.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-Thin.ttf" />
+		<None Remove="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
+		<None Remove="Resource\app.ico" />
+		<None Remove="Resource\close.png" />
+		<None Remove="Resource\header.png" />
+		<None Remove="Resource\icon.png" />
+		<None Remove="Resource\info.png" />
+		<None Remove="Resource\tray.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-Bold.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-BoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-ExtraLight.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-ExtraLightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-Italic.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-Light.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-LightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-Medium.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-MediumItalic.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-Regular.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-SemiBold.ttf" />
+		<Resource Include="Assets\Fonts\Baijamjuree\BaiJamjuree-SemiBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Black.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-BlackItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Bold.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-BoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-ExtraBold.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-ExtraBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-ExtraLight.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-ExtraLightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Italic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Light.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-LightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Medium.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-MediumItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Regular.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-SemiBold.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-SemiBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-Thin.ttf" />
+		<Resource Include="Assets\Fonts\Exo2\Exo2-ThinItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Black.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-BlackItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Bold.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-BoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-ExtraBold.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-ExtraBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Heavy.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-HeavyItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Light.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-LightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Medium.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-MediumItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Regular.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-RegularItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-SemiBold.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-SemiBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-Thin.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-ThinItalic.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-UltraLight.ttf" />
+		<Resource Include="Assets\Fonts\Gilroy\Gilroy-UltraLightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Black.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-BlackItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Bold.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-BoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-ExtraBold.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-ExtraLight.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Italic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Light.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-LightItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Medium.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-MediumItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Regular.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-SemiBold.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-Thin.ttf" />
+		<Resource Include="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
+		<Resource Include="Resource\app.ico" />
+		<Resource Include="Resource\close.png" />
+		<Resource Include="Resource\header.png" />
+		<Resource Include="Resource\icon.png" />
+		<Resource Include="Resource\info.png" />
+		<Resource Include="Resource\tray.png" />
+	</ItemGroup>
+</Project>
