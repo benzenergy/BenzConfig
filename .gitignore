@@ -1,1 +1,18 @@
+## .NET
+bin/
+obj/
 
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+## Rider
+.idea/
+
+## Logs
+*.log
+
+## Publish output
+publish/
