@@ -8,9 +8,8 @@
 - Сохранение настроек
 - Анимация вывода результата
 
-# Скриншоты
+# Скриншот
 
-![shot-1](https://github.com/benzenergy/BenzConfig/blob/main/github/shot-1.png)
 ![shot-2](https://github.com/benzenergy/BenzConfig/blob/main/github/shot-2.png)
 
 ## Платформа
