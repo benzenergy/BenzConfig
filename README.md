@@ -19,6 +19,3 @@
 ## Лицензия
 GNU General Public License v3.0  
 Подробнее см. файл [LICENSE](LICENSE)
-
-## Автор
-Vadim
