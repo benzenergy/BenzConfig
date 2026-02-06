@@ -1,25 +1,25 @@
-# ![logo](https://github.com/benzenergy/BenzConfig/blob/main/github/logo.png)
+![logo](https://github.com/benzenergy/BenzConfig/blob/main/github/logo.png)
 
 Приложение для расчёта расхода топлива
 
-## Возможности
+ Возможности
 - Раздельный расчёт для лета и зимы
 - Настраиваемые пропорции город / трасса
 - Сохранение настроек
 - Анимация вывода результата
 
-# Скриншот
+ Скриншот утилиты
 
 ![shot-2](https://github.com/benzenergy/BenzConfig/blob/main/github/shot-2.png)
 
-## Платформа
+ Платформа
 - Windows 10 / 11
 - .NET 8 (WPF)
 
-## Установка
+ Установка
 Скачайте готовый файл из раздела **Releases** и запустите.
 
-## Лицензия
+ Лицензия
 GNU General Public License v3.0  
 Подробнее см. файл [LICENSE](LICENSE)<br>
 
