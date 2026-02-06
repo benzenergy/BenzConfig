@@ -1,4 +1,5 @@
 # BenzConfig
+[logo](https://github.com/benzenergy/BenzConfig/blob/main/github/logo.png)
 
 Приложение для расчёта расхода топлива
 
