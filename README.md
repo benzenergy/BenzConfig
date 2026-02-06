@@ -1,4 +1,4 @@
-![logo](https://github.com/benzenergy/BenzConfig/blob/main/github/logo-1x.png)
+![logo](https://github.com/benzenergy/BenzConfig/blob/main/github/25.png)
 
  # Возможности
 Раздельный расчёт для лета и зимы <br>
